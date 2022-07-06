@@ -18,11 +18,11 @@
     <main class="main-screen">
       <ul class="navigation-bar">
         <li class="li-bar"><a href="">로그인 키 생성</a></li>
-        <li class="li-bar"><a href="">로그인 키 삭제</a></li>
+        <li class="li-bar"><a href="#" onclick="loginKeyDelete()">로그인 키 삭제</a></li>
         <li class="li-bar"><a href="">서버 인스턴스 생성</a></li>
         <li class="li-bar"><a href="">서버 인스턴스 중지</a></li>
         <li class="li-bar"><a href="">서버 인스턴스 반납</a></li>
-        <li class="li-bar"><a href="">서버 인스턴스 재시작</a></li>
+        <li class="li-bar"><a href="#" onclick="serveInstanceRestart()">서버 인스턴스 재시작</a></li>
       </ul>
 
 
@@ -55,17 +55,47 @@
       
       <table class="main-table">
         <thead>
+          <thead>
             <tr>
               <th>SERVERNAME</th><th>STATUS</th><th>PRIVATEIP</th><th>KEYNAME</th><th>CREATEDATE</th>
             </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lorem</td><td>Ipsum</td><td>Lorem</td><td>Ipsum</td><td>Lorem</td>
+            </tr>
+            <tr>
+              <td>Lorem</td><td>Ipsum</td><td>Lorem</td><td>Ipsum</td><td>Lorem</td>
+            </tr>
+          </tbody>
         </thead>
       </table>
     </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li>
+          <a class="nav__link" href="superAdminLogin.html">
+            super admin login
+          </a>
+        </li>
+        <li>
+          <a class="nav__link" href="adminLogin.html">
+            admin login
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="studentLogin.html">
+            student login
+          </a>
+        </li>
+      </ul>
+    </nav>
 
     <div id="splash-screen">
       <h1 class="splash-screen__title">H-NOS3</h1>
     </div>
 
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
