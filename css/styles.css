@@ -11,9 +11,11 @@
 @import "screens/superAdminLogin.css";
 @import "screens/adminLogin.css";
 @import "screens/studentLogin.css";
+@import "screens/join.css";
 
 body {
     color: #2e363e;
+    padding-bottom: 1700px;
     font-family: "Open Sans", sans-serif;
 }
 
