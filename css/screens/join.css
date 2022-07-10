@@ -58,6 +58,13 @@
     width: 460px;
   }
 
+  .join_title {
+    margin-top: 30px;
+  }
+
+  .join_title-id {
+    margin-top: 70px;
+  }
   /* 입력폼 */
 
   h3 {
@@ -188,27 +195,31 @@
     margin: 30px 0 0px;
   }
 
+  .join_font {
+    font-size: 20px;
+    font-weight: 1500;
+  }
+
   #btnJoin {
     width: 100%;
     padding: 21px 0 17px;
-    margin-top: 10px;
-    border: 1;
+    margin-top: -200px;
     cursor: pointer;
     color: #fff;
     background-color: #40c7f4;
-    font-size: 20px;
-    font-weight: 400;
     font-family: Dotum, "돋움", Helvetica, sans-serif;
   }
+
   #joinForm {
     width: 460px;
     margin: 0 auto;
     margin-top: 30px;
   }
+  
   ul.join_box {
     border: 1px solid #ddd;
     background-color: #fff;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .checkBox,
   .checkBox > ul {

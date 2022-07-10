@@ -8,10 +8,9 @@
 @import "components/nav-bar.css";
 /* Screens */
 @import "screens/main.css";
-@import "screens/superAdminLogin.css";
-@import "screens/adminLogin.css";
-@import "screens/studentLogin.css";
+@import "screens/Login.css";
 @import "screens/join.css";
+@import "screens/serverStatus.css";
 
 body {
     color: #2e363e;
