@@ -33,160 +33,22 @@
           </span>
         </div>
 
-        <!-- 비밀번호 재확인 -->
+        <!-- 인증 -->
         <div>
-          <h3 class="join_title"><label for="pswd2">비밀번호 재확인</label></h3>
-          <span class="box int_pass_check">
-            <input type="text" id="pswd2" class="int" maxlength="20" />
-          </span>
-        </div>
-
-        <!-- 이름 -->
-        <div>
-          <h3 class="join_title"><label for="name">이름</label></h3>
+          <h3 class="join_title"><label for="name">인증키</label></h3>
           <span class="box int_name">
             <input type="text" id="name" class="int" maxlength="10" />
           </span>
         </div>
 
-        <!-- 생일 -->
-        <div>
-          <h3 class="join_title"><label for="yy">생년월일</label></h3>
-
-          <div id="bir_wrap">
-            <!-- 생일_년 -->
-            <div id="bir_yy">
-              <span class="box">
-                <input
-                  type="text"
-                  id="yy"
-                  class="int"
-                  maxlength="4"
-                  placeholder="년(4자)"
-                />
-              </span>
-            </div>
-
-            <!-- 생일_월 -->
-            <div id="bir_mm">
-              <span class="box">
-                <select id="mm" class="sel">
-                  <option>월</option>
-                  <option value="01">1</option>
-                  <option value="02">2</option>
-                  <option value="03">3</option>
-                  <option value="04">4</option>
-                  <option value="05">5</option>
-                  <option value="06">6</option>
-                  <option value="07">7</option>
-                  <option value="08">8</option>
-                  <option value="09">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </select>
-              </span>
-            </div>
-
-            <!-- 생일_일 -->
-            <div id="bir_dd">
-              <span class="box">
-                <input
-                  type="text"
-                  id="dd"
-                  class="int"
-                  maxlength="2"
-                  placeholder="일"
-                />
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 전화번호 -->
-        <div>
-          <h3 class="join_title"><label for="phoneNo">전화번호</label></h3>
-          <span class="box int_mobile">
-            <input
-              type="tel"
-              id="mobile"
-              class="int"
-              maxlength="16"
-              placeholder="전화번호 입력"
-            />
-          </span>
-        </div>
-
-        <!-- 이메일 -->
-        <div>
-          <h3 class="join_title">
-            <label for="email"
-              >본인확인 이메일<span class="optional"></span
-            ></label>
-          </h3>
-          <span class="box int_email">
-            <input
-              type="text"
-              id="email"
-              class="int"
-              maxlength="100"
-              placeholder="선택입력"
-            />
-          </span>
-          <span id="gol">@</span>
-          <div id="email_add">
-            <span class="box">
-              <select id="mm" class="sel">
-                <option>선택하세요</option>
-                <option value="01">naver.com</option>
-                <option value="02">gmail.com</option>
-                <option value="03">hanmail.net</option>
-                <option value="04">nate.com</option>
-                <option value="05">kakao.com</option>
-              </select>
-            </span>
-          </div>
-        </div>
-
-        <!-- 동의-->
-        <form action="" id="joinForm">
-          <h3 class="join_title"><label for="phoneNo">권한확인</label></h3>
-          <ul class="join_box">
-            <li class="checkBox check02">
-              <ul class="clearfix">
-                <li>super admin</li>
-                <li class="checkBtn">
-                  <input type="checkbox" name="chk" />
-                </li>
-              </ul>
-            </li>
-            <li class="checkBox check03">
-              <ul class="clearfix">
-                <li>admin</li>
-                <li class="checkBtn">
-                  <input type="checkbox" name="chk" />
-                </li>
-              </ul>
-            </li>
-            <li class="checkBox check03">
-              <ul class="clearfix">
-                <li>student</li>
-                <li class="checkBtn">
-                  <input type="checkbox" name="chk" />
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </form>
-
-        <!-- 회원가입 버튼-->
+        <!-- 로그인 버튼-->
         <div class="btn_area">
           <button
             onclick="location.href='main.html'"
             type="button"
             id="btnJoin"
           >
-            <span class="join_font">가입하기</span>
+            <span class="join_font">로그인</span>
           </button>
         </div>
       </div>
