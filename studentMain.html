@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H-NOS3</title>
+  </head>
+
+  <body>
+    <header class="screen-header">
+      <h1 class="screen-header__title">
+        H-NOS3
+        <hr class="header-line" />
+      </h1>
+      <div class="btn_area">
+        <button onclick="location.href='main.html'" type="button" id="btnJoin">
+            <h2 class="join_font">로그아웃</h2>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <ul class="navigation-bar">
+        <li class="li-bar"><a href="">로그인 키 생성</a></li>
+        <li class="li-bar"><a href="#" onclick="loginKeyDelete()">로그인 키 삭제</a></li>
+        <li class="li-bar"><a href="">서버 인스턴스 생성</a></li>
+        <li class="li-bar"><a href="">서버 인스턴스 중지</a></li>
+        <li class="li-bar"><a href="">서버 인스턴스 반납</a></li>
+        <li class="li-bar"><a href="#" onclick="serveInstanceRestart()">서버 인스턴스 재시작</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
